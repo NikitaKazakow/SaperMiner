@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="230.0" prefWidth="165.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.NewGameController">
+   <children>
+      <Label layoutX="26.0" layoutY="26.0" text="Количество мин:" />
+      <TextField fx:id="mineCountTextBlock" layoutX="26.0" layoutY="52.0" prefHeight="25.0" prefWidth="119.0" />
+      <Label layoutX="26.0" layoutY="89.0" text="Размеры поля:" />
+      <TextField fx:id="widthGameField" layoutX="26.0" layoutY="115.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="heightGameField" layoutX="94.0" layoutY="115.0" prefHeight="25.0" prefWidth="50.0" />
+      <Label layoutX="81.0" layoutY="119.0" text="X" />
+      <Button layoutX="70.0" layoutY="157.0" mnemonicParsing="false" onAction="#startNewGame" text="Ок" />
+      <TextArea fx:id="errorsLog" editable="false" layoutX="5.0" layoutY="189.0" prefHeight="37.0" prefWidth="156.0" />
+   </children>
+</AnchorPane>
